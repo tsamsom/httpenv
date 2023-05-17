@@ -17,7 +17,7 @@ on:
       - '.github/linters/**'
   schedule:
     # re-run montly to keep image fresh with upstream base images
-    - cron: '0 12 15 * *'
+    # - cron: '0 12 15 * *'
   workflow_dispatch:
     # run manually from Actions tab
 
